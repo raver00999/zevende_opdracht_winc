@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title> Een te gekke site </title>
+</head>
+
+<body>
+    <!-- hier zet je de code in de body tags-->
+    <header class="header-background black-border">
+        <nav>
+            <ul>
+                <li><a href="about.html">Over mij</a></li>
+                <li><a href="animals.html">Over onze dieren</a></li>
+                <li><a href="contact.html">Contact opnemen</a></li>
+            </ul>
+        </nav>
+
+        <h1>Welkom op mijn te gekke site!</h1>
+
+    </header>
+
+    <main class="main-background">
+        <section class="section-background">
+            <h2>Contactformulier</h2>
+
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Je naam:
+                        <br>
+                        <input type="text" name="name" />
+                    </label>
+                </p>
+                <p>
+                    <label>Je mailadres:
+                        <br>
+                        <input type="email" name="email" />
+                    </label>
+                </p>
+                <p>
+                    <label>Jouw bericht:
+                        <br>
+                        <textarea name="message"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <button type="submit">Verzenden</button>
+                </p>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer-style">
+
+        <div>
+            <a class="footer-links" href="index.html">Homepage</a>
+            <div class="copyright">Cris 2020 ©</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
